@@ -1,0 +1,13 @@
+Martin, te dejo algunas correcciones.
+
+1. Correcto pero ojo que el nro de SIGKILL no es el 2 sino el 9.
+
+2. Bien el código pero no funciona como lo indica la consigna. Tuve que corregir las líneas de los 'printf' porque tienen mal el caracter de nueva línea. Debe ser '\n' y no '/n':
+
+printf("SIGINT recibido \n");
+
+printf("\n Fin \n"); 
+
+3. Correcto
+
+4. Correcto, aclararía que el fork() crea un nuevo proceso, ocupando un nuevo espacio de memoria y si sale todo bien habría dos procesos distintos, con diferentes PID ejecutándose al mismo tiempo.
